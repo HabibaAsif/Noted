@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noted™</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="todo-app">
+        <div class="theme-toggle">
+            <input type="checkbox" id="theme-toggle" />
+            <label for="theme-toggle" class="toggle-label"></label>
+            <h1 id="completed-count">✔<span id="completed-task-count">0</span></h1>
+            <h1 id="remaining-count">✘<span id="remaining-task-count">0</span></h1>
+        </div>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="add tasks">
+            <button id="add-btn">+</button>
+            <button id="search-btn">⌕</button>
+        </div>
+        <ul id="list-container">
+        </ul>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

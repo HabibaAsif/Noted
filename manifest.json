@@ -1,0 +1,30 @@
+{
+    "name":"Noted™",
+    "version":"1.0.1",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"popup.html",
+        "default_icon":{
+            "512":"notes_512.png",
+            "256":"notes_256.png",
+            "128":"notes_128.png",
+            "64":"notes_64.png",
+            "32":"notes_32.png",
+            "24":"notes_24.png",
+            "16":"notes_16.png"
+        }
+    },
+    "icons":{
+        "512":"notes_512.png",
+        "256":"notes_256.png",
+        "128":"notes_128.png",
+        "64":"notes_64.png",
+        "32":"notes_32.png",
+        "24":"notes_24.png",
+        "16":"notes_16.png"
+    },
+    "permissions": ["activeTab", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
